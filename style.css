@@ -79,3 +79,13 @@ p {
 .about-paragraphs {
   background: #fff;
 }
+
+@media (max-width: 575px) {
+  .small-size {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    padding: 11px;
+    text-align: center;
+  }
+}
